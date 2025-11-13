@@ -53,13 +53,16 @@ Contains all generated solutions, debug logs, corrected solutions, and bug files
 ### 2. Run HumanEval + coverage (Part 1)
 pytest -v --cov=openai_solutions --cov-branch --cov-report=term-missing --cov-report=json:coverage.json
 python humaneval_coverage_summary.py
+humaneval_coverage_summary.txt were the results when I ran it
+
 
 ### 3. Run bug tests (Part 2)
 python run_bug_test.py
-
+tests that were tripped are under bug_test_failures in txt files.
 ---
 
 ## Notes
 - Only the listed files are needed for the assignment.
 - All other files/folders are just storage for solutions and intermediate outputs.
+
 
