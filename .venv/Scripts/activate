@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Alexander_Bennett\llm-eval\.venv"
+VIRTUAL_ENV="C:\Users\Alexander_Bennett\OneDrive - UMass Lowell\Desktop\llm-eval\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

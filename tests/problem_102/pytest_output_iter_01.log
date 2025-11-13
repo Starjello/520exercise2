@@ -1,0 +1,63 @@
+FFF                                                                      [100%]
+================================== FAILURES ===================================
+_______________________________ test_choose_num _______________________________
+
+    def test_choose_num():
+        # Test case where x is even and y is odd, with a gap in between
+        assert choose_num(2, 5) == 4
+    
+        # Test case where x is odd and y is even, with a gap in between
+        assert choose_num(3, 6) == 6
+    
+        # Test case where x and y are both even but y is less than x
+        assert choose_num(12, 10) == -1
+    
+        # Test case where x is odd and y is odd, with no even numbers in range
+>       assert choose_num(17, 19) == -1
+E       assert 18 == -1
+E        +  where 18 = choose_num(17, 19)
+
+tests\problem_102\test_humaneval_102_llm_iter_01.py:28: AssertionError
+_______________________________ test_choose_num _______________________________
+
+    def test_choose_num():
+        # Test case where x is even and y is odd, with a gap in between
+        assert choose_num(2, 5) == 4
+    
+        # Test case where x is odd and y is even, with a gap in between
+        assert choose_num(3, 6) == 6
+    
+        # Test case where x and y are both even but y is less than x
+        assert choose_num(12, 10) == -1
+    
+        # Test case where x is odd and y is odd, with no even numbers in range
+>       assert choose_num(17, 19) == -1
+E       assert 18 == -1
+E        +  where 18 = choose_num(17, 19)
+
+tests\problem_102\test_humaneval_102_llm_iter_02.py:20: AssertionError
+_______________________________ test_choose_num _______________________________
+
+    def test_choose_num():
+        # Test case where x is even and y is odd, with a gap in between
+        assert choose_num(2, 5) == 4
+    
+        # Test case where x is odd and y is even, with a gap in between
+        assert choose_num(3, 6) == 6
+    
+        # Test case where x and y are both even but y is less than x
+        assert choose_num(12, 10) == -1
+    
+        # Test case where x is odd and y is odd, with no even numbers in range
+>       assert choose_num(17, 19) == -1
+E       assert 18 == -1
+E        +  where 18 = choose_num(17, 19)
+
+tests\problem_102\test_humaneval_102_llm_iter_03.py:28: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/problem_102/test_humaneval_102_llm_iter_01.py::test_choose_num
+FAILED tests/problem_102/test_humaneval_102_llm_iter_02.py::test_choose_num
+FAILED tests/problem_102/test_humaneval_102_llm_iter_03.py::test_choose_num
+3 failed in 0.21s
+
+Wrote XML report to C:\Users\Alexander_Bennett\OneDrive - UMass Lowell\Desktop\llm-eval\tests\problem_102\coverage_iter_01.xml

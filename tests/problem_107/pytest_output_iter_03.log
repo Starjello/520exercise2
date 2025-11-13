@@ -1,0 +1,27 @@
+
+=================================== ERRORS ====================================
+____ ERROR collecting tests/problem_107/test_humaneval_107_llm_iter_01.py _____
+tests\problem_107\test_humaneval_107_llm_iter_01.py:7: in <module>
+    choose_num = getattr(solution_mod, "choose_num")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: module 'solution_mod' has no attribute 'choose_num'
+------------------------------- Captured stdout -------------------------------
+[conftest] Using implementation path: C:\Users\Alexander_Bennett\OneDrive - UMass Lowell\Desktop\llm-eval\solutions_correct\openai
+____ ERROR collecting tests/problem_107/test_humaneval_107_llm_iter_02.py _____
+tests\problem_107\test_humaneval_107_llm_iter_02.py:7: in <module>
+    choose_num = getattr(solution_mod, "choose_num")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: module 'solution_mod' has no attribute 'choose_num'
+____ ERROR collecting tests/problem_107/test_humaneval_107_llm_iter_03.py _____
+tests\problem_107\test_humaneval_107_llm_iter_03.py:7: in <module>
+    choose_num = getattr(solution_mod, "choose_num")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: module 'solution_mod' has no attribute 'choose_num'
+=========================== short test summary info ===========================
+ERROR tests/problem_107/test_humaneval_107_llm_iter_01.py - AttributeError: m...
+ERROR tests/problem_107/test_humaneval_107_llm_iter_02.py - AttributeError: m...
+ERROR tests/problem_107/test_humaneval_107_llm_iter_03.py - AttributeError: m...
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!
+3 errors in 0.35s
+
+Wrote XML report to C:\Users\Alexander_Bennett\OneDrive - UMass Lowell\Desktop\llm-eval\tests\problem_107\coverage_iter_03.xml

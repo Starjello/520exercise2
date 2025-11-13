@@ -1,0 +1,15 @@
+
+=================================== ERRORS ====================================
+____ ERROR collecting tests/problem_107/test_humaneval_107_llm_iter_01.py _____
+tests\problem_107\test_humaneval_107_llm_iter_01.py:7: in <module>
+    choose_num = getattr(solution_mod, "choose_num")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: module 'solution_mod' has no attribute 'choose_num'
+------------------------------- Captured stdout -------------------------------
+[conftest] Using implementation path: C:\Users\Alexander_Bennett\OneDrive - UMass Lowell\Desktop\llm-eval\solutions_correct\openai
+=========================== short test summary info ===========================
+ERROR tests/problem_107/test_humaneval_107_llm_iter_01.py - AttributeError: m...
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.30s
+
+Wrote XML report to C:\Users\Alexander_Bennett\OneDrive - UMass Lowell\Desktop\llm-eval\tests\problem_107\coverage_iter_01.xml

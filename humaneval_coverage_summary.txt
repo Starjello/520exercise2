@@ -1,0 +1,14 @@
+Name                                                       Stmts  Miss  Branch  BrPart    Br%   Line%  Missing                 Tests  Note
+------------------------------------------------------------------------------------------------------------------------------------------
+openai_solutions\humaneval_0_openai_attempt_001_base.py        7     5       4       4   0.0%   28.6%  4-8                       7/7  All HumanEval cases passed; consider more tests to improve branch coverage.
+openai_solutions\humaneval_100_openai_attempt_001_base.py      2     2       0       0    N/A    0.0%  1-2                       6/6  All HumanEval cases passed but some lines remain untested (no branch data).
+openai_solutions\humaneval_101_openai_attempt_001_base.py      7     0       0       0    N/A  100.0%                            8/8  All HumanEval cases passed with high line coverage (no branch data).
+openai_solutions\humaneval_102_openai_attempt_001_base.py      7     6       6       6   0.0%   14.3%  2-7                       8/8  All HumanEval cases passed; consider more tests to improve branch coverage.
+openai_solutions\humaneval_103_openai_attempt_001_base.py      6     5       2       2   0.0%   16.7%  2-6                     12/12  All HumanEval cases passed; consider more tests to improve branch coverage.
+openai_solutions\humaneval_104_openai_attempt_001_base.py      5     4       0       0    N/A   20.0%  2-3, 5-6                  5/5  All HumanEval cases passed but some lines remain untested (no branch data).
+openai_solutions\humaneval_105_openai_attempt_001_base.py      7     6       2       2   0.0%   14.3%  2-3, 5-6, 8-9             7/7  All HumanEval cases passed; consider more tests to improve branch coverage.
+openai_solutions\humaneval_106_openai_attempt_001_base.py     10     9       6       6   0.0%   10.0%  2-8, 10-11                4/4  All HumanEval cases passed; consider more tests to improve branch coverage.
+openai_solutions\humaneval_107_openai_attempt_001_base.py     11    10       6       6   0.0%    9.1%  2-3, 5-6, 8-11, 13, 15    8/8  All HumanEval cases passed; consider more tests to improve branch coverage.
+openai_solutions\humaneval_108_openai_attempt_001_base.py      4     3       0       0    N/A   25.0%  2-3, 5                    8/9  Many HumanEval cases failing with low line coverage – implementation likely incomplete.
+openai_solutions\humaneval_110_openai_attempt_001_base.py      4     3       0       0    N/A   25.0%  2-4                       5/7  Many HumanEval cases failing with low line coverage – implementation likely incomplete.
+openai_solutions\humaneval_1_openai_attempt_001_base.py       25     2      10       2  80.0%   92.0%  12-13                     4/4  All HumanEval cases passed with high line coverage, but some branches are only partially tested.

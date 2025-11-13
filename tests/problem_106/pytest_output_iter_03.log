@@ -1,0 +1,18 @@
+..F                                                                      [100%]
+================================== FAILURES ===================================
+___________________________________ test_f ____________________________________
+
+    def test_f():
+        # Test with n = 17 (odd index, larger input)
+>       assert f(17) == [1, 2, 6, 24, 15, 720, 28, 40320, 45, 3628800, 66, 479001600, 91, 87178291200, 120, 1307674368000, 153]
+E       assert [1, 2, 6, 24, 15, 720, ...] == [1, 2, 6, 24, 15, 720, ...]
+E         
+E         At index 15 diff: 20922789888000 != 1307674368000
+E         Use -v to get more diff
+
+tests\problem_106\test_humaneval_106_llm_iter_03.py:19: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/problem_106/test_humaneval_106_llm_iter_03.py::test_f - assert [...
+1 failed, 2 passed in 0.18s
+
+Wrote XML report to C:\Users\Alexander_Bennett\OneDrive - UMass Lowell\Desktop\llm-eval\tests\problem_106\coverage_iter_03.xml
