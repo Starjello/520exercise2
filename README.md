@@ -31,6 +31,7 @@ Restart terminal afterwards.
   Produces the combined HumanEval + coverage table.
 
 ### Bug testing framework (Part 2)
+convergence.py for the test suite generation and coverage check
 - run_bug_test.py  
   Tests 102_bug.py and 106_bug.py against:
   - HumanEval tests  
@@ -61,3 +62,4 @@ python run_bug_test.py
 ## Notes
 - Only the listed files are needed for the assignment.
 - All other files/folders are just storage for solutions and intermediate outputs.
+
